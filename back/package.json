@@ -1,0 +1,27 @@
+{
+  "name": "service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "express": "^4.17.1",
+    "knex": "^0.95.8",
+    "os-service": "^2.2.0",
+    "pkg": "^5.3.1",
+    "util": "^0.12.4",
+    "windows-service-controller": "^0.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
